@@ -1,0 +1,692 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Images/stefan-stefancik-6whwCHgsMiA-unsplash\ 1.png");
+    background-size:100% ;
+    background-position:top-left ;
+    background-repeat: no-repeat;
+}
+
+.Header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px; 
+   
+    
+}
+
+.logo{
+    width: 76px;
+    height: 50px;
+ 
+}
+
+.nav{
+    width: 382px;
+    height: 50px;
+    margin: 20PX;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 105px;
+}
+
+.profile{
+    width: 160px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 40px;
+    
+
+}
+.profile-icon-img{
+padding-left: 20px;
+}
+.nav a{
+    width: 100px;
+    height: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+}
+
+.b{
+
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+}
+.c{
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+}
+   
+.hero-content{
+    width: 50%;
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top: 100px;
+   
+}
+
+.tagline h1 {
+    font-size: 75px;
+    width: 779px;
+    color: white;
+    text-align: center;
+    line-height: 102px;
+    margin-top: 280px;
+}
+
+.herotext  {
+    color: white;
+    height: 21px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+
+}
+
+.hero-button button{
+    width:150px ;
+    height: 50px;
+    color: #F9F9F9;
+    background-color: #00A651;
+    margin: 50px auto;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 60px;
+    text-decoration: none;
+    border-color: #00A651;
+    
+}
+  
+.Middle{
+
+   padding: 50px;   
+   margin-top: 20px;
+
+}
+
+
+.Ticket{
+   
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+
+
+}
+
+.card-bg-grey{
+
+    width:500px;
+    height:250px;
+    background-color: #F9F9F9;
+    border: 3px solid white;
+    background-image: url(./Images/Rectangle\ 4.png);
+    border-radius: 15px; 
+    padding: 30px 35px;
+}
+    
+.card-bg-white{
+    
+    width:500px;
+    height:250px;
+    border: 3px solid white;
+    background-image: url(./Images/Rectangle\ 5.png);
+    border-radius: 15px; 
+    padding: 30px 35px;
+}
+
+.card-bg-ash{
+    width:500px;
+    height:250px;
+    background-color: #F9F9F9;
+    border: 3px solid white;
+    background-image:url(./Images/Rectangle\ 4.png);
+    border-radius: 15px; 
+    padding: 30px 35px;
+}
+.card{
+
+    width: 416px;
+    height: 232px;
+    border: 2px solid white;
+    background-color: #FFFFFF;
+    border-radius: 15px; 
+    padding: 30px 35px;
+}
+.Middle h1{
+    margin-left: 616px;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bg grey{
+     background-image: url(./Images/Rectangle\ 4.png);
+}
+
+.bg white{
+    background-image:url(./Images/Rectangle\ 5.png)
+
+}
+.bg ash{
+    background-image:url(./Images/Rectangle\ 4.png) ;
+}
+
+.card-bg-grey h4{
+   padding-top: 40px;
+}
+.card-bg-grey p{
+    padding-top: 15px;
+}
+
+.card-bg-white h4{
+    padding-top: 40px;
+ }
+ .card-bg-white p{
+     padding-top: 15px;
+ }
+
+ .card-bg-ash h4{
+    padding-top: 40px;
+ }
+ .card-bg-ash p{
+     padding-top: 15px;
+ }
+
+.Services{
+    
+    background-image: url(./Images/Rectangle\ 11.png);
+    width: 100%;
+    height:500px;
+    margin-top: 10px;
+    padding: 20px 20px;
+}
+    
+
+.Services h1{
+    margin:0px auto;
+    margin-top: 20px;
+    width:  380px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.services-content{
+    margin:0px auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icons{
+    width: 100%; 
+     height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+    
+.Main-icon1{
+
+    background-image: url(./Images/Rectangle\ 7\ \(1\).png);
+    border-radius:15px;
+    width:150px;
+    height:170px;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+     
+}
+
+.Main-icon2{
+    
+    border-radius:15px;
+    padding-top: 15px;
+    width:150px;
+    height:170px;
+    background-image: url(./Images/Rectangle\ 7\ \(1\).png);
+     display: block;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.Main-icon3{
+ 
+border:2px solid white;
+border-radius:15px;
+padding-top: 15px;
+width:150px;
+height:170px;
+display: block;
+text-align: center;
+justify-content: center;
+background-image: url(./Images/Rectangle\ 7\ \(1\).png);
+
+}
+.Main-icon4{
+ border:2px solid white;
+ border-radius:15px;
+ width:150px;
+height:170px;
+display: block;
+background-color: #FFFFFF;
+text-align: center;
+justify-content: center;
+background-image: url(./Images/Rectangle\ 7\ \(1\).png);
+padding-top: 15px;
+}
+
+.img2{
+    padding-top: 20px;
+}
+.icon-p{
+    padding-top: 10px;
+}
+
+.destination-session{
+    margin: 40px;
+    margin-left:  0px;
+    padding: 20px 20px;
+}
+.destination-session h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.Destination-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.world-map{
+    width: 50%;
+    height:inherit;
+    opacity: 60%;
+      
+}
+.content group{
+    width: 50%;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 200px;
+    
+}
+
+.Thailand{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    justify-content: space-around;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-color:whitek ;
+}
+.Indonesia{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    justify-content: space-around;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-image:url(./Images/Rectangle\ 13.png) ;
+}
+
+.New-Zeland{
+    border: 10px solid white;
+    border-radius: 10px;
+    background-image:url(./Images/Rectangle\ 14.png) ;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.countryname{
+    padding-top: 100px;
+}
+.div{
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+.div img{
+    padding-left: 45px;
+}
+
+.new-info{
+    padding-top: 20px;
+}
+.packages{
+    padding: 20px;
+    margin-top: 20px;
+    background-image: url(./Images/Rectangle\ 18.png);
+}
+.packages h2{
+    margin-left: 616px;
+    align-items: center;
+    font-size: 30px;  
+    font-weight: bold; 
+}
+
+.tab{
+    
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 20px;
+
+}
+.tabs{
+    
+    width:180px ;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: 700px;
+    border-radius:10px ;
+    color: white;
+    background-color:#666666;
+    
+}
+
+.location card wrap{
+    background-color: #ECF1F0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.wrap{    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px 20px;
+    
+}
+
+ .Cards{
+    width: 434px;
+    height: 489px;
+    border-radius: 15px;
+    align-items:center; 
+    background-color:#FFFFFF ;
+    
+}
+
+.Cards img{
+    width:inherit ;
+    height:60%;
+    border-radius: 5px;
+    
+}
+ 
+.Cards > p{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.duration{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.paragraph{
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.country{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px ;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-weight: 600px;
+
+}
+    
+ .p class{
+    padding-left: 20px;
+}   
+
+
+.packages button{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: #00A651;
+    color: #FFFFFF;
+    border:  none;
+    border-radius:10px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+} 
+
+.trip-booking{
+     margin-top: 20px;         
+}
+.trip-booking h2 {
+
+margin-top:60px;
+text-align: center;
+font-size: 40px;   
+}
+
+.trip-booking p{
+
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+        
+}
+
+.trip img{
+    margin-left: 210px;
+    align-items: center;
+    font-size: 30px;
+    
+}
+.testimony-wrap{
+    width:100%;
+    height: 800px;
+    background-image: url(./Images/Rectangle\ 32.png);
+        
+}
+
+.testimony-wrap h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 20px;
+       
+}
+ 
+.testimony-content{
+    width:inherit ;
+    height:500px;
+    position: relative;
+    
+}    
+
+.testimony-content >img{
+    margin: 0px auto;
+    display: block;
+    bottom: 50px;
+    left: 300px;
+    align-content: center;
+    width: 1100px;
+}   
+    
+.testimony-card{
+ width:500px ;
+ height: 200px;
+ background-color: #FFFFFF;
+ padding: 73px 50px;
+ color: black;
+ border: 3px solid white;
+ position: absolute;
+ text-align: center;
+ bottom: -15px;
+ right: 500px;
+}
+
+.stan{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 150px;
+    padding-top: 35px;
+    position: absolute;
+}
+
+.testimony-bg{
+    height: 380px;
+    margin: 0px auto;
+    display: block;
+}
+.testimony-bg img{
+    width:120px ;
+    height: 120px;
+    position: absolute;
+    bottom: 133px;
+    right: 700px;
+}
+
+.About-service{
+    width: 100%;
+    height: 800px;
+    margin: 10px 20px;
+}    
+   
+
+.aservice-info {
+    padding: 20px 20px;
+    width: 1005px;
+    height: 450px;
+    margin-left: 200px;
+    background-image: url(./Images/Group\ 78.png);
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    position: relative;
+
+    }
+
+.aservice-info h2{
+    text-align: center;
+    padding-left: 60px;
+    padding-top: 55px;
+    font-weight: 600px;
+    line-height: 44px;
+    color: #5E6282;
+}
+
+.cta {
+    padding: 30px 20px;
+    display: flex;
+    gap: 10px;
+    margin-left: 200px ;
+    margin-top: 40px;
+}
+
+.triangle-img{
+    position: absolute;
+    top:-14px ;
+    right: -20px;
+
+}
+
+.star-img{
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    bottom: -4px ;
+    right: -75px;
+}
+.last-section{
+    width: 100%;
+    /* height: 800px; */
+
+}
+
+.last-services{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.nav-img{
+    width:600px ;
+    height: 180px;
+}
+
+.Social-img{
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 57px;
+    padding-bottom: 10p2;
+}
+
+.Copyrights{
+    /* margin: 0px auto; */
+    margin: 675px;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+@media (min-width:600px){
+     body{
+        
+        width:100%;
+    }
+        
+}
