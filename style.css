@@ -11,9 +11,10 @@
     width: 100%;
     height: 100vh;
     background-image: url("./Images/stefan-stefancik-6whwCHgsMiA-unsplash\ 1.png");
-    background-size:100% ;
-    background-position:top-left ;
+    background-size: cover;
+    background-position:top-right;
     background-repeat: no-repeat;
+    
 }
 
 .Header{
@@ -23,8 +24,6 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 100px; 
-   
-    
 }
 
 .logo{
@@ -49,9 +48,8 @@
     align-items: center;
     justify-content: space-around;
     margin: 40px 40px;
-    
-
 }
+
 .profile-icon-img{
 padding-left: 20px;
 }
@@ -63,7 +61,6 @@ padding-left: 20px;
     font-size: 20px;
     align-items: center;
 }
-
 .b{
 
     width: 100px;
@@ -119,10 +116,8 @@ padding-left: 20px;
 }
   
 .Middle{
-
    padding: 50px;   
-   margin-top: 20px;
-
+   margin-top: 10px;
 }
 
 
@@ -139,7 +134,7 @@ padding-left: 20px;
 
     width:500px;
     height:250px;
-    background-color: #F9F9F9;
+    /* background-color: #F9F9F9; */
     border: 3px solid white;
     background-image: url(./Images/Rectangle\ 4.png);
     border-radius: 15px; 
@@ -147,7 +142,6 @@ padding-left: 20px;
 }
     
 .card-bg-white{
-    
     width:500px;
     height:250px;
     border: 3px solid white;
@@ -159,13 +153,13 @@ padding-left: 20px;
 .card-bg-ash{
     width:500px;
     height:250px;
-    background-color: #F9F9F9;
+    /* background-color: #F9F9F9;  */
     border: 3px solid white;
     background-image:url(./Images/Rectangle\ 4.png);
     border-radius: 15px; 
     padding: 30px 35px;
 }
-.card{
+/* .card{
 
     width: 416px;
     height: 232px;
@@ -173,10 +167,10 @@ padding-left: 20px;
     background-color: #FFFFFF;
     border-radius: 15px; 
     padding: 30px 35px;
-}
+} */
 .Middle h1{
-    margin-left: 616px;
-    align-items: center;
+    /* margin-left: 616px; */
+    text-align: center;
     font-size: 30px;
     font-weight: bold;
 }
@@ -194,21 +188,21 @@ padding-left: 20px;
 }
 
 .card-bg-grey h4{
-   padding-top: 40px;
+   padding-top: 20px;
 }
 .card-bg-grey p{
     padding-top: 15px;
 }
 
 .card-bg-white h4{
-    padding-top: 40px;
+    padding-top: 20px;
  }
  .card-bg-white p{
      padding-top: 15px;
  }
 
  .card-bg-ash h4{
-    padding-top: 40px;
+    padding-top: 20px;
  }
  .card-bg-ash p{
      padding-top: 15px;
@@ -307,15 +301,15 @@ padding-top: 15px;
 }
 
 .destination-session{
-    margin: 40px;
-    margin-left:  0px;
+    margin: 20px 20px;
+    /* margin-left:  0px; */
     padding: 20px 20px;
 }
 .destination-session h3{
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .Destination-content{
@@ -324,12 +318,12 @@ padding-top: 15px;
     align-items: center;
 }
 
-.world-map{
+/* .world-map{
     width: 50%;
     height:inherit;
     opacity: 60%;
       
-}
+} */
 .content group{
     width: 50%;
     flex-direction: column;
@@ -341,16 +335,16 @@ padding-top: 15px;
 
 .Thailand{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 700px;
     justify-content: space-around;
     border: 10px solid white;
     border-radius: 10px;
-    background-color:whitek ;
+    background-color:white;
 }
 .Indonesia{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 700px;
     justify-content: space-around;
     border: 10px solid white;
@@ -363,7 +357,7 @@ padding-top: 15px;
     border-radius: 10px;
     background-image:url(./Images/Rectangle\ 14.png) ;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 700px;
     justify-content: space-around;
     padding-top: 10px;
@@ -390,9 +384,8 @@ padding-top: 15px;
     background-image: url(./Images/Rectangle\ 18.png);
 }
 .packages h2{
-    margin-left: 616px;
-    align-items: center;
-    font-size: 30px;  
+    text-align: center;
+    font-size: 35px;  
     font-weight: bold; 
 }
 
@@ -509,13 +502,15 @@ padding-top: 15px;
 } 
 
 .trip-booking{
-     margin-top: 20px;         
+     margin-top: 20px;  
+     /* height: 500px;          */
 }
 .trip-booking h2 {
 
 margin-top:60px;
 text-align: center;
-font-size: 40px;   
+font-size: 40px; 
+
 }
 
 .trip-booking p{
@@ -524,13 +519,14 @@ font-size: 40px;
     justify-content: center;
     font-size: 24px;
     margin-top: 20px;
-    padding-bottom: 10px;
+    
         
 }
 
 .trip img{
     margin-left: 210px;
     align-items: center;
+    margin-top: 10px;
     font-size: 30px;
     
 }
@@ -583,7 +579,7 @@ font-size: 40px;
     font-size: 20px;
     text-align: center;
     margin-left: 150px;
-    padding-top: 35px;
+    padding-top: 10px;
     position: absolute;
 }
 
@@ -603,7 +599,7 @@ font-size: 40px;
 .About-service{
     width: 100%;
     height: 800px;
-    margin: 10px 20px;
+    /* margin: 10px 20px; */
 }    
    
 
@@ -682,11 +678,244 @@ font-size: 40px;
     margin-top: 70px;
     padding-bottom: 50px;
 }
+.menu-bar{
+    display: none;
+}
 
-@media (min-width:600px){
-     body{
+@media only screen and (max-width:600px){
+   
+   .Header{
+    justify-content: space-between;
+    padding: 0px 15px;
+   }
+   
+   .nav{
         
-        width:100%;
+        display:none;
     }
-        
+
+    .profile{
+        display: none;
+    } 
+
+    .hero{
+        background-size: cover;
+    /* background-position: contain; */
+    }
+    
+    .menu-bar{
+        height: 50px;
+        width: 50px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 8px;
+        padding: 10px 4px;
+    }
+    .menu-bar div{
+        width: 40px;
+        height: 4px;
+        background-color: black;
+        margin-bottom:18px ;
+    }
+    .hero-content{
+        width: 90%;
+        margin-right: auto; 
+        margin-left: auto;
+        margin-top: 200px;
+       
+    }
+    
+    .tagline h1 {
+        width: 100%;
+    font-size: 30px;
+    line-height: 40px;
+    
+    }
+
+    .herotext  {
+   margin-top: 15px;
+   font-size: 10px;
+   line-height: 20px;
+    }
+
+    .Ticket{
+   
+        display: flex;
+        flex-direction: column;
+        gap: 30px;    
+    }
+    
+    .card-bg-ash,.card-bg-grey,.card-bg-white{
+
+        width: 100%;
+    }
+    
+    .Services{
+        margin-top: 5px;
+        height: fit-content;
+    }
+
+    .Services h1{
+     
+        width:  250px;
+        font-size: 25px;
+    }
+    .services-content{
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        gap: 60px;  
+    }
+
+    .destination-session h3{
+        margin-top: 100px;
+    }
+    .Destination-content{
+        display: flex;
+        flex-direction:column ;
+    }
+     .world-map{
+        width: 100%;
+        height: auto; 
+        overflow: auto;
+        margin-left: 5px;            
+    } 
+   
+    .Thailand,.Indonesia,.New-Zeland{
+        width:400px;
+        padding-left: 10px; 
+    }
+    .Thailand >img,.Indonesia>img,.New-Zeland > img{
+        width: 150px;
+    }
+    .div{
+       padding-top: 50px;
+    }
+    .countryname{
+        padding-top: 70px;
+        padding-left: 10px;
+    }
+    .div img{
+        padding-left: 10px;
+    }
+    .tab{
+        /* width: 20px; */
+        display: flex;
+        /* flex-direction: column; */
+        gap: 10px;    
+        justify-content: center;
+        flex-wrap: wrap; 
+        margin: 20px 0px;   
+    }
+    .tabs{
+        width: 150px;
+        flex-wrap: wrap; 
+    }
+    .wrap{
+        display: flex;
+        gap: 20px;  
+        flex-wrap: wrap;
+        align-items: center;        
+    }
+    .Cards{ 
+        width: 320px;
+        height: fit-content;
+    }
+    .paragraph{
+        margin-bottom: 20px;
+    }
+
+
+   .trip-booking h2 {
+      font-size: 30px; 
+   
+   }
+   
+   .trip img{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 40px;
+       
+   }
+   .testimony-wrap{
+    height:400px;
+   }
+ .testimony-wrap h2{
+    font-size: 30px;
+ }
+
+.testimony-content img{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.testimony-bg{
+    width: 100%;  
+}
+
+
+.About-service {
+    width: 100%; 
+}
+.aservice-info {
+    width: 100%;
+    margin: 40px auto;    
+}
+
+.aservice-info h2{
+    line-height: 33px;
+    font-size: 18px;
+}
+
+.cta{
+    width:180px;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.last-services{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 50px; */
+}
+
+
+.nav-img{
+    width:100% ;
+    margin: 10px 20px;
+    height: 150px;
+}
+
+.Social-img{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 57px;
+    padding: 10px 25px;
+}
+.Discoverimg{
+    padding-left: 40px;
+}
+
+.Copyrights{
+
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+
+
+
 }
